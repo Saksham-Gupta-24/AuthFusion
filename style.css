@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    width: 450px;
+    height: min-content;
+    /* background-image: linear-gradient(#dfe6ad, #a1c4a5); */
+    background-image: linear-gradient(to right, #9a95f5, #c9b2ff, #ffa2d1);
+
+    padding: 30px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vh;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    background-color: #e6f5fb;
+    padding: 12px 16px;
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.3s;
+}
+
+.heading {
+    margin-bottom: 2px;
+}
+
+.heading h1,
+h3,
+h4 {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.heading h3 {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.heading h4 {
+    font-size: 13px;
+}
+
+#verifier {
+    display: none;
+}
+
+#p-conf,
+#n-conf {
+    display: none;
+    justify-content: center;
+}
+
+#verification-code {
+    margin-bottom: 3px;
+}
+
+#google-user,
+#github-user,
+#facebook-user {
+    display: none;
+    justify-content: center;
+    content: '';
+}
+
+.fa-facebook {
+    background-color: #0051ff !important;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.fa-github {
+    background-color: #000000 !important;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+.fa-phone {
+    background-color: rgb(22, 127, 22) !important;
+    border: 2px solid black;
+}
+
+.fa-google {
+    background-color: rgb(255, 50, 50) !important;
+    border: 2px solid black;
+    margin: 3px;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+    }
+
+    .sss {
+        max-width: 80vw;
+    }
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+h4 a:hover {
+    color: #0051ff;
+}
