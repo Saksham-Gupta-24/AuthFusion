@@ -12,10 +12,10 @@ AuthFusion is a versatile authentication system that enables users to log in usi
 - Easy Integration: Simple integration process into existing projects.
 
 ## Technologies Used
-- HTML
-- CSS
-- JAVASCRIPT
-- FIREBASE
+- ![HTML](https://img.shields.io/badge/HTML-Code-orange?style=flat-square&logo=html5)
+- ![CSS](https://img.shields.io/badge/CSS-Styles-blue?style=flat-square&logo=css3)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-Logic-yellow?style=flat-square&logo=javascript)
+- ![Firebase](https://img.shields.io/badge/Firebase-Database-red?style=flat-square&logo=firebase)
 
 ## Demonstration
 
