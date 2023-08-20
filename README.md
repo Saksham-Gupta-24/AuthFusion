@@ -1,7 +1,8 @@
 # AuthFusion
 
 AuthFusion is a versatile authentication system that enables users to log in using various methods, including OTP (One-Time Password), Google, Facebook, and GitHub. The project is built with HTML, CSS, JavaScript, and integrates Firebase Authentication for secure user authentication.
-
+<p align="center">
+ <strong> <a href="https://www.linkedin.com/posts/saksham-gupta24_codeclause-login-authfusion-activity-7098976647072157696-FCVp?utm_source=share&utm_medium=member_desktop">Live Demo Video</a></strong>
 
 ## Features
 
